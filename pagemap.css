@@ -1,0 +1,920 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;  /* bu kod bloğu sayfadaki her öğeyi sayfa kenarlarına sıfır kalacak şekilde sıfırlar */
+    box-sizing: border-box;
+  }
+
+
+
+ 
+  @media (min-width:992px)
+ {
+    .container iframe{
+
+  
+        bottom: 0;
+        width: 100%;
+        height: 600px;
+       
+    } 
+    
+    
+    
+    
+    .container{
+    
+        display: flex;
+        flex-direction:column;
+        
+        
+    
+    }
+    
+    
+    .bottom{
+    
+        background-color: #151515;
+        height: 495px;
+        width: 100%;    
+        display: flex;
+        
+    
+    }
+    
+    
+    
+    .bottom .bottom-baslik{
+    
+        font-size: 65px;
+        font-family:"Big Shoulders Display";
+        color: white;
+        width: 180px;
+        height: 20px;
+        padding-left: 150px;
+        display: inline-flex;
+        padding-top: 50px;
+        text-align: left;
+        position: relative;
+        line-height: 0.9;
+    }
+    
+    
+    .bottom .newtext{
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */    
+        justify-content: center;
+    
+    }
+    
+    .bottom .baslik2{
+    
+        color: #D5966C;
+        font-family: "Big Shoulders Display";
+        font-size: xx-large;
+        width:300px;
+        padding-bottom: 60px;
+    }
+    
+    .bottom .text{
+    
+        color: white;
+        font-family: "outfit";
+        font-size: 22px;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        
+    }
+    
+    .bottom .text2{
+    
+        color: white;
+        font-family: "outfit";
+        width: 650px;
+        font-size: 22px;
+        padding-top: 27px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    
+    .bottom2 .textpart{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: 0 auto;
+    
+    }
+    
+    .bottom2 .text{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 550px;
+        padding-bottom: 70px;
+    
+    }
+    
+    .bottom2 .text2{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 550px;
+        padding-top: 90px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .bottom2{
+    
+        background-color: #D5966C;
+        height: 365px;
+        width: 100%;
+        display: flex;
+       
+    
+    
+    }
+    
+    .container .icon{
+    
+        background: linear-gradient(to right, #D5966C 50px, black 0);
+        /* yukarıdaki kod iki veya daha fazla renk arasında yatay olarak geçiş yapmaya olanak tanır */
+        background-repeat: no-repeat; /* arkaplan resmminin tekrarlanmasını engeller */
+        transition: 0.7s; /* arkaplanın animasyonlu geçişini sağlar */
+        padding: 3px;
+        height: 75px;
+        width: 270px;
+        position: absolute;
+        margin-left: 90px;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        transition: background 0.3s ease;
+    
+        
+        
+          
+          
+      }
+      
+      
+      .container .icon .rightarrow{
+      
+          font-size: 50px;
+          z-index: 1;
+          color: white;
+          margin-left: 15px;
+          
+      
+      }
+    
+      .container .icon:hover{
+    
+        background: linear-gradient(to right, black 50px, #D5966C 0);
+        background-repeat: no-repeat;
+    }
+    
+    .container .icon h2{
+    
+        font-family: "Big Shoulders Display";
+        color: white;
+        margin-right: -300px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 22px;
+        padding-top: 20px;
+    
+    
+        
+    
+    }
+    
+    .container a{
+    
+        text-decoration: none;
+        color: white;
+        
+       
+    
+    }
+    
+    
+    .container h2{
+    
+        color: white;
+        font-family: "Big Shoulders Display";
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    
+    
+    
+    .bottom2 a{
+    
+        color: white;
+    
+    }
+    
+     .logo-dark{
+     
+    width: 160px;
+    height: 58px;
+        
+    
+    }
+    .altbaslik{
+    
+        display: flex;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */ 
+    
+    }
+    
+    .altbaslik a{
+    
+        margin-top: 40px;
+        padding: 50px;
+        
+    
+    
+    }
+    
+    
+    ul li a i:hover{
+    
+        color: white;
+        transition: 0.7s; /* hover kullanımında renk değişme süresini uzatır */
+        transform: scale(1.2);
+    
+    
+    }
+    
+    ul li a i{
+    
+        color: #151515;
+        
+       
+    
+    }
+    
+    
+    
+    
+    
+    ul li{
+    
+        font-size: 25px;
+        top: -30px;
+        padding: 10px;
+        float: inline-end;
+        
+        
+    
+    
+    }
+    ul{
+        position: relative;
+        bottom: 80px;
+        list-style-type: none;
+        
+        
+    
+    
+    }
+    
+    
+    .bottom2 .socialmedia{
+    
+        margin-right: 120px;
+        margin-top: 170px;
+        
+    
+    
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+ {
+    
+    .container iframe{
+
+  
+        bottom: 0;
+        width: 100%;
+        height: 600px;
+       
+    } 
+    
+    
+    
+    
+    .container{
+    
+        display: flex;
+        flex-direction:column;
+        
+        
+    
+    }
+    
+    
+    .bottom{
+    
+        background-color: #151515;
+        height: 495px;
+        width: 100%;    
+        display: flex;
+        flex-direction: row;
+        
+    
+    }
+    
+    
+    
+    .bottom .bottom-baslik{
+    
+        font-size: 70px;
+        font-family:"Big Shoulders Display";
+        color: white;
+        width: 180px;
+        height: 20px;
+        text-align: left;
+        line-height: 0.9;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    
+    
+    .bottom .newtext{
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */    
+        justify-content: center;
+        margin-left: 25%;
+    
+    }
+    
+    .bottom .baslik2{
+    
+        color: #D5966C;
+        font-family: "Big Shoulders Display";
+        font-size: xx-large;
+        width:300px;
+        padding-bottom: 60px;
+    }
+    
+    .bottom .text{
+    
+        color: white;
+        font-family: "outfit";
+        font-size: 22px;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        
+    }
+    
+    .bottom .text2{
+    
+        color: white;
+        font-family: "outfit";
+        width: 85%;
+        font-size: 22px;
+        padding-top: 27px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    
+    .bottom2 .textpart{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: 0 auto;
+    
+    }
+    
+    .bottom2 .text{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 550px;
+        padding-bottom: 70px;
+    
+    }
+    
+    .bottom2 .text2{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 550px;
+        padding-top: 90px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .bottom2{
+    
+        background-color: #D5966C;
+        height: 365px;
+        width: 100%;
+        display: flex;
+       
+    
+    
+    }
+    
+    .container .icon{
+    
+        background: linear-gradient(to right, #D5966C 50px, black 0);
+        /* yukarıdaki kod iki veya daha fazla renk arasında yatay olarak geçiş yapmaya olanak tanır */
+        background-repeat: no-repeat; /* arkaplan resmminin tekrarlanmasını engeller */
+        transition: 0.7s; /* arkaplanın animasyonlu geçişini sağlar */
+        padding: 3px;
+        height: 75px;
+        width: 270px;
+        position: absolute;
+        margin-left: 90px;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        transition: background 0.3s ease;
+    
+        
+        
+          
+          
+      }
+      
+      
+      .container .icon .rightarrow{
+      
+          font-size: 50px;
+          z-index: 1;
+          color: white;
+          margin-left: 15px;
+          
+      
+      }
+    
+      .container .icon:hover{
+    
+        background: linear-gradient(to right, black 50px, #D5966C 0);
+        background-repeat: no-repeat;
+    }
+    
+    .container .icon h2{
+    
+        font-family: "Big Shoulders Display";
+        color: white;
+        margin-right: -300px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 22px;
+        padding-top: 20px;
+    
+    
+        
+    
+    }
+    
+    .container a{
+    
+        text-decoration: none;
+        color: white;
+        
+       
+    
+    }
+    
+    
+    .container h2{
+    
+        color: white;
+        font-family: "Big Shoulders Display";
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    
+    
+    
+    .bottom2 a{
+    
+        color: white;
+    
+    }
+    
+     .logo-dark{
+     
+    width: 160px;
+    height: 58px;
+        
+    
+    }
+    .altbaslik{
+    
+        display: flex;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */ 
+    
+    }
+    
+    .altbaslik a{
+    
+        margin-top: 40px;
+        padding: 50px;
+        
+    
+    
+    }
+    
+    
+    ul li a i:hover{
+    
+        color: white;
+        transition: 0.7s; /* hover kullanımında renk değişme süresini uzatır */
+        transform: scale(1.2);
+    
+    
+    }
+    
+    ul li a i{
+    
+        color: #151515;
+        
+       
+    
+    }
+    
+    
+    
+    
+    
+    ul li{
+    
+        font-size: 25px;
+        top: -30px;
+        padding: 10px;
+        float: inline-end;
+        
+        
+    
+    
+    }
+    ul{
+        position: relative;
+        bottom: 80px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        
+        
+    
+    
+    }
+    
+    
+    .bottom2 .socialmedia{
+    
+        margin-right: 120px;
+        margin-top: 170px;
+        
+    
+    
+    }
+ }
+
+ @media (max-width:768px){
+    
+    .map1{
+
+        width: 100%;
+        height: 400px;
+       
+    } 
+ 
+    .container .icon{
+    
+        background: linear-gradient(to right, #D5966C 50px, black 0);
+        /* yukarıdaki kod iki veya daha fazla renk arasında yatay olarak geçiş yapmaya olanak tanır */
+        background-repeat: no-repeat; /* arkaplan resmminin tekrarlanmasını engeller */
+        transition: 0.7s; /* arkaplanın animasyonlu geçişini sağlar */
+        height: 78px;
+        width: 263px;
+        position: absolute;
+        transition: background 0.3s ease;
+        top: 0%;
+          
+          
+      }
+      
+      
+      .container .icon .rightarrow{
+      
+          font-size: 50px;
+          z-index: 1;
+          color: white;
+          margin-left: 15px;
+          align-items: center;
+          display: flex;
+          position: relative;
+        bottom: 25%;
+      }
+    
+      .container .icon:hover{
+    
+        background: linear-gradient(to right, black 50px, #D5966C 0);
+        background-repeat: no-repeat;
+    }
+    
+    .container .icon h2{
+    
+        font-family: "Big Shoulders Display";
+        color: white;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        
+    
+    }
+    
+    .container a{
+    
+        text-decoration: none;
+        color: white;
+        
+       
+    
+    }
+    
+    
+    .container h2{
+    
+        color: white;
+        font-family: "Big Shoulders Display";
+        text-align: center;
+        font-size: x-large;
+    }
+    
+      
+    
+    
+    .bottom{
+    
+        background-color: #151515;
+        height: 514px;
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    
+    
+    .bottom .bottom-baslik{
+    
+        font-size: 50px;
+        font-family:"Big Shoulders Display";
+        color: white;
+        width: 80%;
+        height: 20px;
+        text-align: left;
+        line-height: 0.9;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    
+    
+    .bottom .newtext{
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */    
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 20%;
+
+    
+    }
+    
+    .bottom .baslik2{
+    
+        color: #D5966C;
+        font-family: "Big Shoulders Display";
+        font-size: 32px;
+        width:300px;
+        margin-bottom: 5%;
+    }
+    
+    .bottom .text{
+    
+        color: white;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        height: 81px;
+        width: 343px;
+        
+    }
+    
+    .bottom .text2{
+    
+        color: white;
+        font-family: "outfit";
+        width: 343px;
+        height: 135px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    
+    .bottom2 .textpart{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 275px;
+    
+    }
+    
+    .bottom2 .text{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 85%;
+       margin-top: 60%;
+       margin-left: 14%;
+    
+    }
+    
+    .bottom2 .text2{
+    
+        color: black;
+        font-family: "outfit";
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 85%;
+        margin-top: 55%;
+        margin-left: 14%;
+        text-align: center;
+
+    
+    }
+    
+    
+    
+    
+    
+    
+    .bottom2{
+    
+        background-color: #D5966C;
+        height: 521px;
+        width: 100%;
+       
+    
+    
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    .bottom2 a{
+    
+        color: white;
+    
+    }
+    
+     .logo-dark{
+     
+    width: 160px;
+    height: 58px;
+    margin-left: 1%;
+    margin-top: -50px;
+
+        
+    
+    }
+    .altbaslik{
+    
+        display: flex;
+        margin: 0 auto; /* öğeyi ekranda yatay olarak ortalar */ 
+        width: 160px;
+        height: 57px;
+        margin-left: 1%;
+
+    
+    }
+    
+    .altbaslik a{
+    
+        margin-top: 40px;
+        padding: 50px;
+        width: 160px;
+        height: 57px;
+        
+    
+    
+    }
+    
+    
+    ul li a i:hover{
+    
+        color: white;
+        transition: 0.7s; /* hover kullanımında renk değişme süresini uzatır */
+        transform: scale(1.2);
+    
+    
+    }
+    
+    ul li a i{
+    
+        color: #151515;
+        
+       
+    
+    }
+    
+    
+    
+    
+    
+    ul li{
+    
+        font-size: 25px;
+        top: -30px;
+        padding: 10px;
+        float: inline-end;
+        
+        
+    
+    
+    }
+    ul{
+        position: relative;
+        list-style-type: none;
+       
+        
+    
+    
+    }
+    .icon2{
+
+        margin-top: -55%;
+        margin-left: 14%;
+    }
+    
+    
+    .bottom2 .socialmedia{
+    
+        margin-right: 120px;
+        margin-top: 170px;
+        display: flex;
+        flex-direction: row;
+        
+    
+    
+    }
+
+  }
